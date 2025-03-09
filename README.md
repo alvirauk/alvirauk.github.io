@@ -11,8 +11,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: black;
+            background-color: #1a1a2e;
+            color: white;
             margin: 0;
             padding: 0;
         }
@@ -24,15 +24,15 @@
         .header {
             text-align: center;
             padding: 50px;
-            background-color: #2c3e50;
+            background-color: #16213e;
             color: white;
         }
         .hero {
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             padding: 50px;
-            background-color: #ecf0f1;
+            background-color: #0f3460;
         }
         .hero img {
             max-width: 300px;
@@ -40,13 +40,14 @@
         }
         .section {
             padding: 50px;
-            background-color: white;
+            background-color: #1b1b2f;
             margin: 20px 0;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
         }
         .section h2 {
             text-align: center;
+            color: #e94560;
         }
         .grid {
             display: flex;
@@ -54,15 +55,15 @@
             justify-content: space-around;
         }
         .card {
-            background: #ffffff;
+            background: #16213e;
             padding: 20px;
             border-radius: 10px;
             width: 300px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
             text-align: center;
         }
         .footer {
-            background-color: #2c3e50;
+            background-color: #16213e;
             color: white;
             text-align: center;
             padding: 20px;
@@ -83,7 +84,7 @@
             <button>View Work</button>
             <button>Hire Me</button>
         </div>
-        <img src="./mnt/data/image.png" alt="Alvira Khan">
+        <img src="./mnt/data/unnamed.jpg" alt="Alvira Khan">
     </section>
 
     <section class="section">
@@ -103,6 +104,24 @@
                 <h3>Associate Academic</h3>
                 <p>London South Bank University</p>
                 <p>Mentored 200+ students, increasing student success rates by 15%.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Fraud Detection Model</h3>
+                <p>Developed a machine learning model to detect financial fraud, increasing accuracy by 25%.</p>
+            </div>
+            <div class="card">
+                <h3>Market Analysis for Zomato</h3>
+                <p>Performed data-driven market research for Zomato to enhance competitive strategy.</p>
+            </div>
+            <div class="card">
+                <h3>Disaster Displacement Analysis</h3>
+                <p>Created interactive visualizations tracking displacement trends over time.</p>
             </div>
         </div>
     </section>
@@ -133,6 +152,12 @@
             <li>Applied Machine Learning Using Python (2024)</li>
             <li>Bloomberg Market Concepts (2023)</li>
         </ul>
+    </section>
+
+    <section class="section">
+        <h2>MA Thesis</h2>
+        <p>"Should the Concept of Highly Skilled Migration be Redefined? A Case Analysis of Estonia"</p>
+        <p><a href="https://drive.google.com/file/d/1lNgczgmI7OByjpuGWny_YhXiHUkzVoq-/view?usp=drive_link" target="_blank">Read Thesis</a></p>
     </section>
 
     <section class="section">
