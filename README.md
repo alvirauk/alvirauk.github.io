@@ -1,4 +1,3 @@
-# alvirauk.github.io
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,133 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alvira Khan - Data Analyst</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 50px 0;
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            color: white;
+            text-align: center;
+        }
+        .portfolio-content, .services-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .my-card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 75, 43, 0.5);
+            text-align: center;
+            width: 300px;
+        }
+        .my-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: #1e1e1e;
+            text-align: left;
+        }
+        .hero img {
+            max-width: 40%;
+            border-radius: 10px;
+        }
+        .contact-content {
+            background-color: #ff4b2b;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Navbar Header -->
     <header class="header">
         <nav class="navbar">
             <div class="logo">
                 <h2 class="logo-heading">Alvira Khan</h2>
             </div>
-            <div class="hamburger" id="hamburger">
-                <i class="fas fa-bars hamburger-icon"></i>
-                <i class="fas fa-times cross-icon"></i>
-            </div>
-            <div class="menu">
-                <ul class="menu-list">
-                    <li class="menu-list-items"><a class="links" href="#home">Home</a></li>
-                    <li class="menu-list-items"><a class="links" href="#portfolio">Portfolio</a></li>
-                    <li class="menu-list-items"><a class="links" href="#about">About</a></li>
-                    <li class="menu-list-items"><a class="links" href="#services">Services</a></li>
-                    <li class="menu-list-items"><a class="links" href="#contact">Contact</a></li>
-                </ul>
-            </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="intro">
-            <div class="headings">
-                <h3 class="greet-heading">Hello, I'm</h3>
-                <h1 class="my-heading">Alvira Khan</h1>
-                <h4 class="sub-heading">A Data Analyst with Expertise in Business Intelligence & Visualization</h4>
-            </div>
-            <div class="intro-buttons">
-                <button class="btn common-btn">Hire Me</button>
-                <button class="btn ghost-btn">Get Resume</button>
-            </div>
+        <div>
+            <h1>HELLO!</h1>
+            <h2>I Am Alvira Khan</h2>
+            <p>A Data Analyst with expertise in Business Intelligence, Machine Learning, and Data Visualization.</p>
+            <button class="btn common-btn">View Work</button>
+            <button class="btn ghost-btn">Hire Me</button>
         </div>
+        <img src="./mnt/data/image.png" alt="Alvira Khan">
     </section>
 
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio-heading">
-            <h1 class="my-heading text-center">My Work</h1>
-        </div>
+    <section class="section-container" id="portfolio">
+        <h1>My Work</h1>
         <div class="portfolio-content">
-            <div class="my-row">
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="./Images/data_viz.avif" alt="Data Visualization">
-                        </div>
-                        <h3 class="greet-heading blue-text">Data Visualization</h3>
-                        <p class="small-para blue-text">Using Tableau & Power BI</p>
-                    </div>
-                </div>
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="./Images/machine_learning.avif" alt="Machine Learning">
-                        </div>
-                        <h3 class="greet-heading blue-text">Machine Learning</h3>
-                        <p class="small-para blue-text">Predictive Analytics</p>
-                    </div>
-                </div>
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="./Images/sql_analysis.avif" alt="SQL Analysis">
-                        </div>
-                        <h3 class="greet-heading blue-text">SQL Analysis</h3>
-                        <p class="small-para blue-text">Data Querying & Processing</p>
-                    </div>
-                </div>
+            <div class="my-card">
+                <img src="./Images/data_viz.avif" alt="Data Visualization">
+                <h3>Data Visualization</h3>
+                <p>Tableau, Power BI, Flourish</p>
+            </div>
+            <div class="my-card">
+                <img src="./Images/machine_learning.avif" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <p>Python, NLP, Hugging Face</p>
+            </div>
+            <div class="my-card">
+                <img src="./Images/sql_analysis.avif" alt="SQL Analysis">
+                <h3>SQL Analysis</h3>
+                <p>Data Querying & Processing</p>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="about-text">
-            <h1 class="my-heading">About Me</h1>
-            <p class="lead-para">I am a passionate Data Analyst specializing in business intelligence, data visualization, and statistical analysis. I have experience in using Tableau, Power BI, Python, SQL, and Excel to provide data-driven solutions that drive business success.</p>
-        </div>
-        <div class="about-image">
-            <img src="./Images/alvira_profile.avif" alt="About Alvira">
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="contact-heading">
-            <h1 class="my-heading text-center">Contact Me</h1>
-        </div>
-        <div class="contact-content">
-            <div class="contact-form-container">
-                <h1 class="greet-heading">Get In Touch</h1>
-                <form class="contact-form">
-                    <input class="form-controls" type="text" placeholder="Your Name">
-                    <input class="form-controls" type="email" placeholder="Your Email">
-                    <input class="form-controls" type="text" placeholder="Your Phone">
-                    <textarea class="form-controls" placeholder="Write your message" cols="30" rows="10"></textarea>
-                    <input class="form-btn btn common-btn" type="submit" value="Send Message">
-                </form>
+    <section class="section-container" id="services">
+        <h1>Skills</h1>
+        <div class="services-content">
+            <div class="my-card">
+                <h3>Data Visualization</h3>
+                <p>Tableau, Power BI, Flourish</p>
+            </div>
+            <div class="my-card">
+                <h3>SQL & Data Querying</h3>
+                <p>SQL, PostgreSQL, MySQL</p>
+            </div>
+            <div class="my-card">
+                <h3>Machine Learning</h3>
+                <p>Python, NLP, Hugging Face</p>
+            </div>
+            <div class="my-card">
+                <h3>Financial Analysis</h3>
+                <p>Business Intelligence & Risk Assessment</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer-content text-center">
-            <h4>Copyright © 2025 All rights reserved | Designed by Alvira Khan</h4>
-            <div class="social-links">
-                <div class="footer-menu">
-                    <ul class="footer-menu-list">
-                        <li class="footer-list-items"><a class="footer-links" href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li class="footer-list-items"><a class="footer-links" href="#"><i class="fab fa-github"></i></a></li>
-                        <li class="footer-list-items"><a class="footer-links" href="#"><i class="fab fa-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <section class="contact-content" id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: alvirauk@gmail.com | Phone: 07711923312</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/alvira-khan98" target="_blank">Alvira Khan</a></p>
+    </section>
 </body>
 </html>
